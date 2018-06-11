@@ -1,0 +1,25 @@
+{
+  "name": "autoplay-music",
+  "version": "1.0.2",
+  "description": "音乐自动播放插件，支持自定义播放与多个音乐播放。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+	  "苏丹",
+	  "sudan",
+	  "音乐播放",
+	  "自动播放",
+	  "音乐自动播放",
+	  "play-music",
+	  "music"
+  ],
+  "author": "Danny",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sd13142dll/npm.git"
+  },
+  "homepage": "http://desaiy.com/"
+}

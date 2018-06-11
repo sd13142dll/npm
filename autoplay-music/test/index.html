@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>H5音乐播放插件</title>
+    <style type="text/css">
+    	* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		html {
+			font-size: 100px;
+		}
+		body {
+			background-color: #333;
+		}
+		.musicBtn {
+	        position: absolute;
+	        z-index: 2;
+	        top: 0.8rem;
+	        right: 0.4rem;
+	        width: 0.56rem;
+	        height: 0.56rem;
+	    }
+	    .musicBtn:before,
+	    .musicBtn:after {
+	        content: '';
+	        position: absolute;
+	        width: 0.56rem;
+	        height: 0.56rem;
+	    }
+	    .musicBtn:before {
+	        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAANlBMVEX///8AAAD///////////////////////////////////////////////////////////////9TvwflAAAAEXRSTlNAADonHzIUDm/y34dWn0evvFqe/5gAAAFUSURBVEjHndfbcoQgEATQzoCA4GX5/58NVbFM0OaS6YetfdhTOKwyI75YvDWLCCCyGOvpTwh0RlBFjJuAVkAilkHOOOXQ3YxS14IGgxgOFwyzEOgFExH/gsRReUPuxhK8vnGdIPs5iPmFDjx73kHibigNmHPmZV7Q4n8Q9oLSgUdrSdwLcphTY8kCpQvzmjayZIEOHXjl87SuQDOE5IpNgdKF6bP+yO1xrfDowvK5pVi+nKjiYYewJJU9euwrzAxEePyjhS1TEHtdZGEyBxFrKNMwHA+IIeTRQ9FB0cNFBQszKliY1UHLb/JwxjXn2IGePFbHnq+0oZAHOax5DM376Eg5T0D3OqxC7SJ38j4eYw0Dh/Z9INcucSekBax/2BrAY++mQ2vcj4YT2ua2PZa14hnQjNM2Vm0r1w4P6nFFPyDpRzL9EKgfO/WDrn601g/z6teHb6CEFHDIzCn9AAAAAElFTkSuQmCC") no-repeat;
+	        background-size: 100% 100%;
+	    }
+	    .musicBtn:after {
+	        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAP1BMVEX///8AAAD////////////////////////////////////////////////////////////////////////////NY5A9AAAAFHRSTlNAADooHwYyFEl/cd1WDeyhtZBjyEcpPQsAAAG7SURBVEjHnZfZloQwCERrErc27s3/f+tEZyFAjKdTj328kiIINL5ymhvfOQc41/lmzj6SAXvvIOR8/wy2DVMp27RlkDGLFsBeYAbt70CPB/ks2HZ4VNdacHbAs9yswZa5MtkyaLkyKUD29+wzBT0+kGewR14rrcio/wfvDBJR3uYv2OAzEM0JioyOLw0OdyEhAhJtCqTXTUgIhy+iMEmQln2yISMoU3oQ0cjgn7bDJBbqDodAtGvQnthH0JnLo234B/dt+SEndVbMYKVG+TqmPZDKGiLWwOhYolEGf961qLzCw2p4X0YZxEikTKK7qVJ6DwmIXZns4DTDh5sSEGGQ2WFQaYpGU3DUIMsYvcAarabIyzFZdBq9wcogF5sFuzL4pnz76ODLIPbrRo08mjJ4Fc1y2E8Zc44Yt3Am5rfIgzUaMdvihpVY1w+bMerSD5nrWYE4jYZBf8i9LlKh5G2Hah3yrIfkAk4Zo061x6hALBklGhXtUY04yb2EiVE2ZBlySbn4ZGEEcEiV03UozFY75qb1DBq2Ebfqawdr7SivXh5q15X6Bal+JatfAuvXzvpFt361rl/mq/8+fAPZaR6Z6vqZUAAAAABJRU5ErkJggg==") no-repeat;
+	        background-size: 100% 100%;
+	    }
+	    .musicBtnOn:before,
+	    .musicBtnOff:after {
+	        display: block;
+	    }
+	    .musicBtnOn:after,
+	    .musicBtnOff:before {
+	        display: none;
+	    }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+    	<a href="javascript:;" class="musicBtn">
+        <audio src="./static/asMyCat.mp3" id="music" preload="preload" autoplay loop></audio>
+    </a>
+    </div>
+    <script src="./dist/build.js"></script>
+  </body>
+</html>
