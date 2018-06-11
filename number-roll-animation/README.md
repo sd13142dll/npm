@@ -1,3 +1,8 @@
+[ DEMO ](http://desaiy.com/npm-demo/number-roll-animation/index.html)
+
+![ 示例图 ](http://desaiy.com/npm-demo/number-roll-animation/demo.png)
+
+
 #### 前言
 
 基于jquery的数字滚动效果，支持千位分号分隔符。
@@ -64,5 +69,6 @@ JS调用示例：
 
 
 #### 更新历史：
- - 【2018-06-11】 v1.0.7 修改git仓库地址。
+ - 【2018-06-11】 v1.0.3 添加DEMO图片和链接。
+ - 【2018-06-11】 v1.0.2 修改git仓库地址。
  - 【2018-06-05】 v1.0.1 基于jquery的数字滚动效果，支持千位分号分隔符。
