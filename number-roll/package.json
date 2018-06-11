@@ -1,0 +1,30 @@
+{
+  "name": "number-roll-animation",
+  "version": "1.0.7",
+  "description": "基于jquery的数字滚动效果，支持千位分号分隔符",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "苏丹",
+    "sudan",
+    "数字滚动",
+    "数字翻滚",
+    "number-roll",
+    "数字",
+    "滚动",
+    "Danny",
+    "danny"
+  ],
+  "author": "Danny",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sd13142dll/npm.git"
+  },
+  "homepage": "http://desaiy.com/",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
